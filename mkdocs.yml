@@ -1,0 +1,4 @@
+site_name: Specification
+docs_dir: "."
+nav:
+  - Home: "index.md"

@@ -1,0 +1,1 @@
+# The Living Pog Specification
