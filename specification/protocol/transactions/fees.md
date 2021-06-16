@@ -1,0 +1,27 @@
+!!! warning
+    The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
+
+# How could these fees be calculated?
+
+* We predetermine a maximum amount of transactions per second for a healthy network without excessive storage requirements to be usable on consumer hardware
+  * This number can later be changed by a hard-fork
+* Every X minutes, transaction fees are recalculated (the "cycle")
+* Transaction fees are then slowly increased each "cycle" if the previous cycle exceeded the time requirements. These fees scale with the time between transactions from an account.
+  * The more transactions you had in the last cycle, the higher your fees are per transaction.
+**In a best-case scenario, the fees would always stay at 0**.
+This can all be readjusted later in the case of a sophisticated spam attack with a hard-fork and other methods for pruning spam transactions.
+
+Fees are only relevant to transactions of the `send` type.
+
+### Additional Info
+
+This is connected to the nothing at stake problem, if we want to solve it by not giving nodes rewards, we should burn those fees (this would also make our system deflationary)
+Instead of burning the fees, we could use them as a “green tax” which benefits the environment. However, this might be hard to accomplish in a decentralized setting.
+
+
+## What happens to these fees?
+
+After every cycle, these fees are distributed to "green wallets".
+* These "green wallets" are a list of reputable and transparent climate centric ngo's.
+To prevent council nodes from paying these rewards to themselves, you require 70% of council nodes to add new wallets and only 40% to remove them. This is to ensure these are non-controversial and if possible unpolitical.
+
