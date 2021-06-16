@@ -1,4 +1,8 @@
 site_name: Specification
-docs_dir: "."
+docs_dir: "specification"
+
 nav:
-  - Home: "index.md"
+  - Introduction: "README.md"
+  - Whitepaper: "whitepaper/README.md"
+  - Protocol:
+      - Overview: "protocol/README.md"
