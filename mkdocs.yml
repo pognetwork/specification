@@ -4,6 +4,7 @@ docs_dir: "specification"
 nav:
   - Introduction: "README.md"
   # - Whitepaper: "whitepaper/README.md"
+  # - Whitepaper: "whitepaper/README.md"
   - Protocol:
       - Overview: "protocol/README.md"
       - Supply: "protocol/supply.md"
@@ -11,3 +12,4 @@ nav:
       - Consensus: "protocol/consensus.md"
       - Transactions:
           - Fees: "protocol/transactions/fees.md"
+  - Glossary: "glossary.md"
