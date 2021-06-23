@@ -7,9 +7,11 @@ nav:
   # - Whitepaper: "whitepaper/README.md"
   - Protocol:
       - Overview: "protocol/README.md"
+      - Wallets: "protocol/wallets.md"
       - Supply: "protocol/supply.md"
       - Coin Distribution: "protocol/distribution.md"
       - Consensus: "protocol/consensus.md"
       - Transactions:
+          - Blocks: "protocol/transactions/blocks.md"
           - Fees: "protocol/transactions/fees.md"
   - Glossary: "glossary.md"
