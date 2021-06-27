@@ -11,7 +11,7 @@ Smaller private keys should not be accepted by wallets.
 
 ## Wallet Addresses
 
-Wallet addresses are 192 bit values based on the wallets public key(which is a 32 byte values derived from the private keys using Ed25519)
+Wallet addresses are 192 bit values based on the wallets public key (which is a 32 byte values derived from the private keys using Ed25519)
 
 ```
 HashedPublicKey = SHA3-256(PublicKey)

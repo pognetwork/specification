@@ -8,6 +8,7 @@ nav:
   - Protocol:
       - Overview: "protocol/README.md"
       - Wallets: "protocol/wallets.md"
+      - Ledger: "protocol/ledger.md"
       - Supply: "protocol/supply.md"
       - Coin Distribution: "protocol/distribution.md"
       - Consensus: "protocol/consensus.md"

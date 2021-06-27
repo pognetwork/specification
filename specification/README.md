@@ -9,3 +9,15 @@ We're drawing inspiration from many projects, in particualy [ethereum](https://e
 These are all very mature projects with a huge amount of features, which pog is not: We want to create a minimal project to learn about distributed ledgers and only possibly expand it to a fully production ready cryptocurrency in the future.
 
 Our Roadmap is available [here](https://github.com/orgs/pognetwork/projects/1) and on the left side you can find our first attempts at defining our protocol.
+
+```mermaid
+gantt
+    title Rough Roadmap
+    dateFormat  YYYY-MM-DD
+    section Section
+    Defining the Protocol   :a1, 2021-06-15, 60d
+    First Node Implementation    :a2, after a1, 129d
+    Reevaluate Strategy    :a3, after a2, 100d
+    Create Foundation    :after a3, 70d
+    Prepare token launch    :after a3, 70d
+```
