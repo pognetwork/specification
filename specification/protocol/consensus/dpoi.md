@@ -1,7 +1,7 @@
 !!! warning
     The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
 
-# Delegated Proof of Importance
+# Delegated Proof of Importance - our consensus Mechanism
 
 ## Abstract
 
@@ -16,5 +16,5 @@ Like in nano[[1]](https://docs.nano.org/protocol-design/orv-consensus/), there i
 * age of account
 * coins in account
 * interactions with other accounts (network theory) (importance of these accounts)
-* All of these factors will be limited
+* all of these factors will be limited
 * sending coins to "green adreses"

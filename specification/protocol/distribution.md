@@ -17,7 +17,7 @@ We want to run a campaign where you get POG for donations to climate focused ngo
 planted tree. Users can already generate a wallet before the network launch where said POG will be send with the genesis block.
 The amount of generated coins will be relative to the amount of donations in this event.
 
-To encourage indivuduals from contributing, there will be additional rewards for your first x amound of coins bought.
+To encourage individuals from contributing, there will be additional rewards for your first x amound of coins bought.
 
 ## Developer Fund
 

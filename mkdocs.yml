@@ -4,14 +4,15 @@ docs_dir: "specification"
 nav:
   - Introduction: "README.md"
   # - Whitepaper: "whitepaper/README.md"
-  # - Whitepaper: "whitepaper/README.md"
   - Protocol:
       - Overview: "protocol/README.md"
       - Wallets: "protocol/wallets.md"
       - Ledger: "protocol/ledger.md"
       - Supply: "protocol/supply.md"
       - Coin Distribution: "protocol/distribution.md"
-      - Consensus: "protocol/consensus.md"
+      - Consensus:
+          - Delegates: "protocol/consensus/delegates.md"
+          - "Delegated Proof of Importance": "protocol/consensus/dpoi.md"
       - Transactions:
           - Blocks: "protocol/transactions/blocks.md"
           - Fees: "protocol/transactions/fees.md"
