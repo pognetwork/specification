@@ -1,3 +1,4 @@
+<!-- prettier-ignore -->
 !!! warning
     The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
 
@@ -13,8 +14,9 @@ This score is calculated from a variety of factors like coins held, age of these
 Like in nano[[1]](https://docs.nano.org/protocol-design/orv-consensus/), there is no economic incentive of running a node to prevent a list of issues[[2]](https://medium.com/@clemahieu/emergent-centralization-due-to-economies-of-scale-83cc85a7cbef). The only incentive is the health of the ecosystem.
 
 ## Factors for voting power calculation
-* age of account
-* coins in account
-* interactions with other accounts (network theory) (importance of these accounts)
-* all of these factors will be limited
-* sending coins to "green adreses"
+
+- age of account
+- coins in account
+- interactions with other accounts (network theory) (importance of these accounts)
+- all of these factors will be limited
+- sending coins to "green adreses"
