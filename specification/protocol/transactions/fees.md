@@ -33,4 +33,4 @@ Instead of burning the fees, we could use them as a “green tax” which benefi
 After every cycle, these fees are distributed to "green wallets".
 
 - These "green wallets" are a list of reputable and transparent climate centric ngo's.
-  To prevent council nodes from paying these rewards to themselves, you require 70% of council nodes to add new wallets and only 40% to remove them. This is to ensure these are non-controversial and if possible unpolitical.
+  To prevent council nodes from paying these rewards to themselves, you require >50% of council nodes to add new wallets and only 40% to remove them. This is to ensure these are non-controversial and if possible unpolitical. While this might seem counter-productive, voting for these is an active task, which we don't expect more than 80% of prime delegates to actively take part in.

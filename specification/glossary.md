@@ -10,7 +10,7 @@ Green Adresses are adresses of vetted, transparent and climate focused organisat
 
 ### Importance Score
 
-Check out [Delegated Proof of Importance](../protocol/consensus)
+Check out [Delegated Proof of Importance](protocol/consensus/dpoi.md)
 
 ### Online Importance Score
 

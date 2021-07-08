@@ -1,13 +1,13 @@
 # Blocks
 
-In POG, one transaction is contained and limited to one block which can only be added to the account owners chain. The blocks must be verified by the delegates to be accepted by the network. If the block is accepted, it it broadcasted to other accounts.
+In POG, transactions are contained in blocks. The blocks must be verified by more than 50% of prime delegates to be accepted by the network.
 
-There are 4 different types of blocks:
+There are 4 different types of transactions:
 
 <!-- prettier-ignore -->
 === "Open"
-    To create a new account, the account owner must create the open block. 
-    
+    To create a new account, the account owner must create the open block.
+
     !!! note "Idea"
         This block might be avoided by using the first `claim` block
 
@@ -21,4 +21,11 @@ There are 4 different types of blocks:
 
 <!-- prettier-ignore -->
 === "Delegate"
-    Assigns a new [delegate](consensus/delegates.md) for the account.
+    Assigns a new [delegate](../consensus/delegates.md) for the account.
+
+## Broadcasting Blocks
+
+Newley created blocks need to be published to all prime delegates.
+These then publish their decision (accept or deny the block) to all other prime delegates and a subset of non-prime representatives (gossip about gossip).
+
+To learn more about delegates, check out our [page about them](../consensus/delegates.md)

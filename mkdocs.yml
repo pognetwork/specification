@@ -5,6 +5,8 @@ nav:
   - Introduction: "README.md"
   # - Whitepaper: "whitepaper/README.md"
   - Protocol:
+      - Protocol Changes: "protocol/protocol-changes.md"
+      - Smart Contracts: "protocol/smart-contracts.md"
       - Overview: "protocol/README.md"
       - Wallets: "protocol/wallets.md"
       - Ledger: "protocol/ledger.md"

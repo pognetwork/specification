@@ -15,6 +15,7 @@ Transactions which are send to an **autonomous account** trigger a new **execute
 
 **execute** transactions can contain multiple **data** blocks which add new entried to the **AutAcc**'s database.
 
+<!-- prettier-ignore -->
 !!! note "Open Questions"
-_ How do we prevent spam?
-_ How do we calculate the cost of executing the code?
+    - How do we prevent spam?
+    - How do we calculate the cost of executing the code?
