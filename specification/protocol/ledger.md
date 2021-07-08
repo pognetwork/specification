@@ -1,3 +1,4 @@
+<!-- prettier-ignore -->
 !!! warning
     The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
 
@@ -11,4 +12,3 @@ In this graph, each account has their own blockchain which can only be controlle
 ## Accounts
 
 ## Blocks
-
