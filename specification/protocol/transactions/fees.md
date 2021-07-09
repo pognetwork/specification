@@ -1,6 +1,6 @@
 <!-- prettier-ignore -->
 !!! warning
-    The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
+    The POG.network specification is still a Work-In-Progress and this page isn't finalized yet. Fees in particular haven't been included in our work so far.
 
 # Why Fees
 
@@ -33,4 +33,4 @@ Instead of burning the fees, we could use them as a “green tax” which benefi
 After every cycle, these fees are distributed to "green wallets".
 
 - These "green wallets" are a list of reputable and transparent climate centric ngo's.
-  To prevent council nodes from paying these rewards to themselves, you require >50% of council nodes to add new wallets and only 40% to remove them. This is to ensure these are non-controversial and if possible unpolitical. While this might seem counter-productive, voting for these is an active task, which we don't expect more than 80% of prime delegates to actively take part in.
+  To prevent council nodes from paying these rewards to themselves, you require >60% of council nodes to add new wallets and only 40% to remove them. This is to ensure these are non-controversial and if possible unpolitical. While this might seem counter-productive, voting for these is an active task, which we don't expect more than 80% of prime delegates to actively take part in.

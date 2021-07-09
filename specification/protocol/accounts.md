@@ -21,10 +21,8 @@ ProtocolVersion = 0b0001
 AccountAddress = ProtocolVersion + HashedPublicKey[0:160]
 
 Checksum = SHA3-256(AccountAddress)[0:28]
-AccountAddress = AccountAddress + "+" + Checksum
+AccountAddress = "p" + Base32(AccountAddress + Checksum)
 ```
-
-The resulting Account address is represended as a Base32 string.
 
 From this Account address, a human readable version can also be generated (this is however not finalized yet).
 This could be similar to BIP-39, however we don't need a second checksum since one is already included in the data.
