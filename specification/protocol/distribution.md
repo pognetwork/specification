@@ -2,32 +2,20 @@
 !!! warning
     The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
 
-# The Initial Coin Distribution
+# The Token Sale
 
-```mermaid
-pie title POG Distribution
-    "Developer Fund" : 10
-    "Green Fund" : 15
-    "Ecosystem Fund" : 10
-    "Token Sale" : 65
-```
-
-## Token Sale
+During the initial distibution, 100% of pog will be distributed, there will be no hidden founder's package or secret pre-sale agreements.
 
 We want to run a campaign where you get POG for donations to climate focused ngo’s, e.g per
 planted tree. Users can already generate a wallet before the network launch where said POG will be send with the genesis block.
 The amount of generated coins will be relative to the amount of donations in this event.
 
-To encourage individuals from contributing, there will be additional rewards for your first x amound of coins bought.
+We don't see this as a pre-mine. This is essentailly the initial mining phase before the network goes live, where everyone who is interested can take part in. All wallet addresses from POG Foundation will be public and coin distribution transparent and cryptographically backed by another blockchain (The mechanism through which this will happen hasn't been specified yet).
 
-## Developer Fund
+To encourage individuals from contributing, there will be additional rewards for the first coins you claim which taper off (also to be determined).
 
-A portion of the funds will be paid out to developers working on the protocol. How this will work isn't set out in stone yet, however this isn't supposed to be a get rich scheme for founders so timelocking and othere mechanisms will definitly play a role.
+## Supporting Developers
 
-## Ecosystem Fund
+Initially, the first green wallet will be the POG Foundation. Prime Delegates are free to support other causes, however at least initialy, the POG Foundation will be hard-coded as a possible green wallet out of many. Once the ecosystem stabilizes, we want to let the community decide on how they want to support as and use this as incentive for our organization to be more transparent and accountable to everyone.
 
-The ecosystem found will be managed by the POG foundation. This foundation will hold regular votes and competions for distributing these coins to projects benefiting the ecosystem like wallets and alternative node implementations.
-
-## Green Fund
-
-This amount of tokens will also be slowly paid out the the foundation for funding climate-centric projects. This will need to happen very transparently and with feedback from the rest of the community.
+The POG foundation will have three green wallets, one focused on protocol development, one for supporting the ecosystem and one exclusively used to support climate centrig programs.

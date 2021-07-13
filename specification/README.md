@@ -30,7 +30,3 @@ gantt
     Create Foundation    :after a3, 70d
     Prepare token launch    :after a3, 70d
 ```
-
-# Overview
-
-While the next pages will go more into detail of the how and why, we want to give a rough overview of the components that make up our currency.

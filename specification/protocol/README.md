@@ -2,12 +2,6 @@
 !!! warning
     The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
 
-| POG.NETWORK         |                                           |
-| ------------------- | ----------------------------------------- |
-| Consensus Mechanism | Delegated Proof of Importance             |
-| Ledger Structure    | Block-lattice                             |
-| Hash Function       | SHA-3                                     |
-| Signing Algorithm   | Ed25519                                   |
-| Block Size          | TBD                                       |
-| Fees                | Only for prioritizing transactions        |
-| Distribution        | Exchanged for donations to "green" causes |
+# Overview
+
+While the next pages will go more into detail of the how and why, we want to give a rough overview of the components that make up our currency.

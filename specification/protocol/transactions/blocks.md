@@ -1,7 +1,6 @@
 # Blocks
 
 In POG, transactions are contained in blocks. These blocks must be verified by more than 60% of prime delegates to be accepted by the network.
-
 Blocks contain sevaral fields:
 
 ## Block Header

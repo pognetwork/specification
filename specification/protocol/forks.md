@@ -10,7 +10,3 @@ Hard Forks need to go through a lenghty standertization process described in [Pr
 ## Legacy Blocks
 
 To update the block format, PPs can be introduced as part of a hard fork that update the block version (We want everyone to be onboard with new changes and not soft-fork the network). The old transaction format will then be depricated until a later hardfork disables it for good (We want to avoid having old code lying around that could introduce issues). This could also be used as an alternative to the hard fork mechanism described above by using the block version field to signal switching over to a new protocol version.
-
-## HArd Fork #1
-
-Even though POG hasn't launched yet, this hard-fork is already planned.

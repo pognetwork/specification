@@ -5,10 +5,10 @@ nav:
   - Introduction: "README.md"
   # - Whitepaper: "whitepaper/README.md"
   - Protocol:
+      - Overview: "protocol/README.md"
       - Protocol Changes: "protocol/protocol-changes.md"
       - Smart Contracts: "protocol/smart-contracts.md"
-      - Overview: "protocol/README.md"
-      - Wallets: "protocol/wallets.md"
+      - Accounts: "protocol/accounts.md"
       - Ledger: "protocol/ledger.md"
       - Supply: "protocol/supply.md"
       - Coin Distribution: "protocol/distribution.md"
