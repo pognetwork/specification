@@ -2,7 +2,7 @@
 
 ### Delegates / Delegate Nodes
 
-Delegate Nodes are nodes which are part of the top 64 nodes with the highest online importance score. They play a crucial part in the stability of the network by voting on [green adresses](#green-addresses) and by their votes being rebroadcasted by all other nodes.
+Delegate Nodes are nodes which are part of the top 128 nodes with the highest online importance score. They play a crucial part in the stability of the network by voting on [green adresses](#green-addresses) and by their votes being rebroadcasted by all other nodes.
 
 ### Green Addresses
 
