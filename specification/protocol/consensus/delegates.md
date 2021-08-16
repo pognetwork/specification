@@ -10,6 +10,9 @@ Over time, an account builds up [network importance](dpoi.md) that shows other a
 In addition to this, accounts on the network can transfer their importance to other accounts `delegate` their voting power and allow the more trusted account to have more voting power on the network. This results in a more secure network.
 The 128 most important accounts will become `delegates`.
 
+!!! note "Delegates Name"
+This name may be changed at a later date or be used to address any account with importance on the network. Maybe use a different name for the Top 128?
+
 All this is done to find a balance between decentralization and speed. Accounts outside of the top 128 wouldn't meaningfully contribute to the vote total und thus enable a huge speedup in transaction processing times.
 
 !!! note "128 might have performance problems"
@@ -17,7 +20,7 @@ This number may be changed at a later date after extensive network testing.
 
 ## Delegate Roles
 
-Prime delegates have the opportunity to suggest green wallets and vote for other green causes that they wish the network to support.
+Delegates have the opportunity to suggest green wallets and vote for other green causes that they wish the network to support.
 
 ## Delegate Keys
 
