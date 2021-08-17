@@ -19,3 +19,4 @@ nav:
           - Blocks: "protocol/transactions/blocks.md"
           - Fees: "protocol/transactions/fees.md"
   - Glossary: "glossary.md"
+  - Styleguide: "styleguide.md"

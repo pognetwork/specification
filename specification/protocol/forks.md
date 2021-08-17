@@ -10,3 +10,9 @@ Hard Forks need to go through a lenghty standertization process described in [Pr
 ## Legacy Blocks
 
 To update the block format, PPs can be introduced as part of a hard fork that update the block version (We want everyone to be onboard with new changes and not soft-fork the network). The old transaction format will then be depricated until a later hardfork disables it for good (We want to avoid having old code lying around that could introduce issues). This could also be used as an alternative to the hard fork mechanism described above by using the block version field to signal switching over to a new protocol version.
+
+# Hard Fork #1
+
+The first Hard Fork is already planned. To ensure a smooth start, the initial version of pog will not include support for send and recieve transactions which will be enabled later on in this hardfork.
+
+This is to ensure a diverse selection of Prime Delegates and provide a certain amount of security by not putting any funds at risk in case a critical vulnerability is discovered.
