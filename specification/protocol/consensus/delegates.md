@@ -3,24 +3,28 @@
 ## What are Delegates
 
 Delegate accounts are active accounts on the network that vote on the legitamacy of a new block.
+Over time, an account builds up [importance](dpoi.md) which represents the amount of say someone has for making important network decisions.
+This trust can also be transfered to other accounts by `delegate` your voting power and enables the creation of a democratic system where a group of delegates are democratically ellected. This ellection runs constantly, so bad behavior can be instantly repremended by the greater network. This is essentially the parlament of pog.network, where the top 128 delegates of the community decide the fate of the network and contibute to it's security and stability.
+
+<!-- prettier-ignore -->
+!!! note "Delegates Name"
+    This name may be changed at a later date or be used to address any account with importance on the network. Maybe use a different name for the Top 128?
+
+All this is done to find a balance between decentralization and speed. Accounts outside of the top 128 wouldn't meaningfully contribute to the vote total and can thus enable a huge speedup in transaction processing times while also helping to reduce emissions.
+
+<!-- prettier-ignore -->
+!!! note "128 might have performance problems"
+    This number may be changed at a later date after extensive network testing.
+
+A single delegate can never have more than 25% of the total online voting power.
 
 ## How to become a Delegate
 
-Over time, an account builds up [network importance](dpoi.md) that shows other accounts that a account can be trusted.
-In addition to this, accounts on the network can transfer their importance to other accounts `delegate` their voting power and allow the more trusted account to have more voting power on the network. This results in a more secure network.
-The 128 most important accounts will become `delegates`.
+To become a delegate, you need to build a good reputation in the pog.network community and support the pog ecosystem. There is no monetary incentive of running a delegate node outside of increasing the value of the network. To start being a delegate, you just need to run a full-node on a good server infrastructure and campaign for votes.
 
-!!! note "Delegates Name"
-This name may be changed at a later date or be used to address any account with importance on the network. Maybe use a different name for the Top 128?
+## Tasks of a Delegate
 
-All this is done to find a balance between decentralization and speed. Accounts outside of the top 128 wouldn't meaningfully contribute to the vote total und thus enable a huge speedup in transaction processing times.
-
-!!! note "128 might have performance problems"
-This number may be changed at a later date after extensive network testing.
-
-## Delegate Roles
-
-Delegates have the opportunity to suggest green wallets and vote for other green causes that they wish the network to support.
+- Delegates have the opportunity to suggest green wallets and vote for other green causes that they wish the network to support, see [green adresses](./../../glossary.md#green-addresses).
 
 ## Delegate Keys
 
