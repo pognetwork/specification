@@ -17,7 +17,7 @@ Blocks contain sevaral fields:
 | ------------- | ----------------- | ------------ | ----------------------------------------------------------- |
 | version       | varint            | up to 32 bit | block version                                               |
 | signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
-| address       | bytes             | 192 bit      | the accounts address generated from the public key          |
+| address       | string            | 192 bit      | the accounts address generated from the public key          |
 | signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
 | height        | varint (unsigned) | up to 64 bit | the block height (block index)                              |
 | balance       | varint (unsigned) | up to 64 bit | the new account ballance after applying all transactions    |
@@ -46,6 +46,14 @@ There are 4 different types of transactions:
 <!-- prettier-ignore -->
 === "Delegate"
     Assigns a new [delegate](../consensus/delegates.md) for the account.
+
+### Transaction IDs
+
+To ensure transaction IDs are unique, they're calculated as follows:
+
+```
+tx_id = sha3(block_hash + tx_hash);
+```
 
 ## Broadcasting Blocks
 
