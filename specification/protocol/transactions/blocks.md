@@ -5,11 +5,12 @@ Blocks contain sevaral fields:
 
 ## Block Header
 
-| field     | type  | size    | description                     |
-| --------- | ----- | ------- | ------------------------------- |
-| hash      | bytes | 256 bit | hash of the previous block      |
-| signature | bytes | 512 bit | signature of the block contents |
-| publicKey | bytes | 256 bit | account's public key            |
+| field     | type  | size    | description                                                                                 |
+| --------- | ----- | ------- | ------------------------------------------------------------------------------------------- |
+| hash      | bytes | 256 bit | hash of the previous block                                                                  |
+| timestamp | u64   | 64 bit  | seconds of UTC time since Unix epoch (defined by the first node which sees the transaction) |
+| signature | bytes | 512 bit | signature of the block contents                                                             |
+| publicKey | bytes | 256 bit | account's public key                                                                        |
 
 ## Block Contents
 
