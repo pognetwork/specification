@@ -17,7 +17,7 @@ ProtocolVersion = 0b0001
 AccountAddress = ProtocolVersion + HashedPublicKey[0:160]
 
 Checksum = SHA3-256(AccountAddress)[0:28]
-AccountAddress = "p" + Base32(AccountAddress + Checksum)
+AccountAddress = Hex(AccountAddress + Checksum)
 ```
 
 From this Account address, a human readable version can also be generated (this is however not finalized yet).
