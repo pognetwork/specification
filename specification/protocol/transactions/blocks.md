@@ -20,7 +20,7 @@ Blocks contain sevaral fields:
 | signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
 | address       | string            | 192 bit      | the accounts address generated from the public key          |
 | signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
-| height        | varint (unsigned) | up to 64 bit | the block height (block index)                              |
+| height        | varint (unsigned) | up to 64 bit | the block height (block index); starts at 0                 |
 | balance       | varint (unsigned) | up to 64 bit | the new account ballance after applying all transactions    |
 | previous      | bytes (optional)  | 256 bit      | hash of the previous block                                  |
 | transactions  | Transaction       | variable     | all transactions included in the block (TODO: limit amount) |
