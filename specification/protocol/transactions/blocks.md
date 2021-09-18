@@ -7,7 +7,6 @@ Blocks contain sevaral fields:
 
 | field     | type  | size    | description                                                                                 |
 | --------- | ----- | ------- | ------------------------------------------------------------------------------------------- |
-| hash      | bytes | 256 bit | hash of the previous block                                                                  |
 | timestamp | u64   | 64 bit  | seconds of UTC time since Unix epoch (defined by the first node which sees the transaction) |
 | signature | bytes | 512 bit | signature of the block contents                                                             |
 | publicKey | bytes | 256 bit | account's public key                                                                        |
@@ -17,8 +16,6 @@ Blocks contain sevaral fields:
 | field         | type              | size         | description                                                 |
 | ------------- | ----------------- | ------------ | ----------------------------------------------------------- |
 | version       | varint            | up to 32 bit | block version                                               |
-| signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
-| address       | string            | 192 bit      | the accounts address generated from the public key          |
 | signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
 | height        | varint (unsigned) | up to 64 bit | the block height (block index); starts at 0                 |
 | balance       | varint (unsigned) | up to 64 bit | the new account ballance after applying all transactions    |
