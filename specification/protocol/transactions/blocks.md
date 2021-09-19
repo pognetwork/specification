@@ -53,6 +53,16 @@ To ensure transaction IDs are unique, they're calculated as follows:
 tx_id = sha3(block_hash + tx_hash);
 ```
 
+## Block IDs
+
+Block IDs have to be unique as long as the block content is a valid new block, so block hashes are their ids.
+
+## ID Encoding
+
+Block and Transaction IDs should always be encoded as bytes when used over the wire. When presented on user-facing interfaces, like for adresses z-base-32 should be used.
+However, in addition to this they should be prefixed with `blk-`/`txn-` (there prefixes should be optional for e.g searches but be displayed by default).
+Example: `blk-t518zdq98f6yah4c18zgyirkyouz5zq4wzaj8gw3wuej897hs5jo` (56 chars)
+
 ## Broadcasting Blocks
 
 Newley created blocks need to be published to all prime delegates.
