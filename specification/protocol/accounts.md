@@ -12,16 +12,16 @@ Account addresses are 192 bit values based on the Accounts public key (which is 
 
 ```
 HashedPublicKey = SHA3-256(PublicKey)
-AdressType = 0b00
-ProtocolVersion = 0b00
-AccountAddress = AdressType + ProtocolVersion + HashedPublicKey[0:156]
+AdressType = 0b0000
+ProtocolVersion = 0b0000
+AccountAddress = AdressType + ProtocolVersion + HashedPublicKey[0:160]
 
 Checksum = SHA3-256(AccountAddress)[0:24]
-AccountAddress = AccountAddress + Checksum
+AccountAddress = AccountAddress + Checksum // 192 bits
 ```
 
 When intended for human consumtion, these should be encoded with z-base-32.
-An account address would look like this for example: `bdzrxqg76qmhbt3w3rxqcbkewbb8xzq7hanwo` (37 chars).
+An account address would look like this for example: `yy5xyknabqan31b8fkpyrd4nydtwpausi3kxgta` (39 chars).
 Different types of accounts and address versions can easily be distinguished using the first character.
 
 Over the wire, these adresses should however be if possible represented by bytes
