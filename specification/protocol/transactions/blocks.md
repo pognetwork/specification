@@ -37,15 +37,15 @@ To learn more about delegates, check out our [page about them](../consensus/dele
 
 There are 4 different types of transactions:
 
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
 === "Open"
+
     To create a new account, the account owner must create the open block.
 
     | field | type | size     | description                                   |
     | ----- | ---- | -------- | --------------------------------------------- |
     | type  | enum | variable | Managed Account (0) or Autonomous Account (1) |
 
-<!-- prettier-ignore -->
 === "Send"
     This sends the funds out of the owners account and sets the block to pending until it is `claimed` by a receiving account.
 
@@ -55,7 +55,6 @@ There are 4 different types of transactions:
     | amount   | uint64 | 64 bit       | amount of pog transfered to that account |
     | data     | bytes  | variable     | any data associated with the transaction |
 
-<!-- prettier-ignore -->
 === "Claim"
     Since only the account owner can add blocks to their own account chain, receiving funds involves creating a `claim` block to collect the pending transaction.
 
@@ -63,13 +62,13 @@ There are 4 different types of transactions:
     | ------------- | ----- | ------------ | ------------------------- |
     | transactionID | bytes | up to 32 bit | transaction being claimed |
 
-<!-- prettier-ignore -->
 === "Delegate"
     Assigns a new [delegate](../consensus/delegates.md) for the account.
 
     | field          | type  | size    | description             |
     | -------------- | ----- | ------- | ----------------------- |
     | representative | bytes | 192 bit | account being delegated |
+<!-- prettier-ignore-end -->
 
 ### Transaction IDs
 
