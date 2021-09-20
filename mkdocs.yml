@@ -19,5 +19,8 @@ nav:
       - Transactions:
           - Blocks: "protocol/transactions/blocks.md"
           - Fees: "protocol/transactions/fees.md"
+      - Networking:
+          - Peering: "protocol/transactions/peering.md"
+          - Voting: "protocol/transactions/voting.md"
   - Glossary: "glossary.md"
   - Styleguide: "styleguide.md"
