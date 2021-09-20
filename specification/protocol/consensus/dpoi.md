@@ -7,7 +7,7 @@
 ## Abstract
 
 Consensus only needs to be reached for double-spend transactions and to protect against Sybil attacks.
-To reach consensus quickly, a group of delegates are ellected by all users.
+To reach consensus quickly, a group of delegates are elected by all users.
 The weight of these delegates is determined by the "importance score" of all it's users.
 This score is calculated from a variety of factors like coins held, age of these coins, amount of active transactions and more (the details aren't 100% clear yet, we might want to look at NIM's implementation of this)
 

@@ -80,6 +80,6 @@ tx_id = sha3(block_hash + tx_hash);
 
 # ID Encoding
 
-Block and Transaction IDs should always be encoded as bytes when used over the wire. When presented on user-facing interfaces, like for adresses z-base-32 should be used.
+Block and Transaction IDs should always be encoded as bytes when used over the wire. When presented on user-facing interfaces, like for addresses z-base-32 should be used.
 However, in addition to this they should be prefixed with `blk-`/`txn-` (there prefixes should be optional for e.g searches but be displayed by default).
 Example: `blk-t518zdq98f6yah4c18zgyirkyouz5zq4wzaj8gw3wuej897hs5jo` (56 chars)

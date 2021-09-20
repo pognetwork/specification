@@ -9,11 +9,11 @@
 - Contracts have access to a append-only key-value database
 - Contracts have access to a transactions
 - Contracts have a main function where they can process arbitrary data send through `data` fields in transactions.
-- The contract's code itself isn't stored on the blockchain but ipfs (would this make sense? still thinking about it)
+- The contract's code itself isn't stored on the blockchain but IPFS (would this make sense? still thinking about it)
 
-Transactions which are send to an **autonomous account** trigger a new **execute** transaction, which can both send and recieve funds.
+Transactions which are send to an **autonomous account** trigger a new **execute** transaction, which can both send and receive funds.
 
-**execute** transactions can contain multiple **data** blocks which add new entried to the **AutAcc**'s database.
+**execute** transactions can contain multiple **data** blocks which add new entries to the **AutAcc**'s database.
 
 <!-- prettier-ignore -->
 !!! note "Open Questions"

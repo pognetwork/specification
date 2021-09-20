@@ -2,8 +2,8 @@
 !!! warning
     The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
 
-There isn't any "mining" happening, so no new coins are distributed with blockrewards.
+There isn't any "mining" happening, so no new coins are distributed with block rewards.
 
-We are still pondering about if there should be rewards baked into the protocol. One Way we are thinking about would be as block rewards that aren't rewarded to the delegates producing these blocks but instead distributed to "green adresses" by these producers.
+We are still pondering about if there should be rewards baked into the protocol. One Way we are thinking about would be as block rewards that aren't rewarded to the delegates producing these blocks but instead distributed to "green addresses" by these producers.
 
 To see how this supply is reached, check out our page on [distribution](distribution.md).

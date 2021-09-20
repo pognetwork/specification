@@ -8,20 +8,20 @@ POG.network is currently in a very early phase. Currently, we're working hard on
 
 # What drives us
 
-POG was born out of the desire to learn. The initial team consists of a number of students at the CODE University who want to use this as an about decentralized ledger technology. This started with the relization of the inefficiencies in current cryptocurrencies which motivated us to have sustainability be a core part of the protocol.
+POG was born out of the desire to learn. The initial team consists of a number of students at the CODE University who want to use this as an about decentralized ledger technology. This started with the realization of the inefficiencies in current cryptocurrencies which motivated us to have sustainability be a core part of the protocol.
 
-We want to accomplish this goal while still staying true to the original vision of bitcoin: creating a currency that knows no geographical boundaries and which exists outside of the of controll of individual states and companies.
+We want to accomplish this goal while still staying true to the original vision of bitcoin: creating a currency that knows no geographical boundaries and which exists outside of the of control of individual states and companies.
 
 # Previous Work
 
-We're drawing inspiration from many projects, in particualy [ethereum](https://ethereum.org/), [nano](https://nano.org), [vite](https://vite.org) and [nem](https://nem.io).
+We're drawing inspiration from many projects, in particular [ethereum](https://ethereum.org/), [nano](https://nano.org), [vite](https://vite.org) and [nem](https://nem.io).
 These are all very mature projects with a huge amount of features, which pog is not: We want to create a minimal and modular project to learn about distributed ledgers and only later expand it to a fully production ready cryptocurrency.
 
-Our Roadmap is available [here](https://github.com/orgs/pognetwork/projects/1) and on the left side you can find our first attempts at defining a protocol.
+Our roadmap is available [here](https://github.com/orgs/pognetwork/projects/1) and on the left side you can find our first attempts at defining a protocol.
 
 ```mermaid
 gantt
-    title Rough Roadmap
+    title Roadmap
     dateFormat  YYYY-MM-DD
     section Section
     Defining the Protocol   :a1, 2021-06-15, 60d

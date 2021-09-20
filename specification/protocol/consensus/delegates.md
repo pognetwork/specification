@@ -2,9 +2,9 @@
 
 ## What are Delegates
 
-Delegate accounts are active accounts on the network that vote on the legitamacy of a new block.
+Delegate accounts are active accounts on the network that vote on the legitimacy of a new block.
 Over time, an account builds up [importance](dpoi.md) which represents the amount of say someone has for making important network decisions.
-This trust can also be transfered to other accounts by `delegate` your voting power and enables the creation of a democratic system where a group of delegates are democratically ellected. This ellection runs constantly, so bad behavior can be instantly repremended by the greater network. This is essentially the parlament of pog.network, where the top 128 delegates of the community decide the fate of the network and contibute to it's security and stability.
+This trust can also be transferred to other accounts by `delegate` your voting power and enables the creation of a democratic system where a group of delegates are democratically elected. This election runs constantly, so bad behavior can be instantly reprimanded by the greater network. This is essentially the parliament of pog.network, where the top 128 delegates of the community decide the fate of the network and contribute to it's security and stability.
 
 <!-- prettier-ignore -->
 !!! note "Delegates Name"
@@ -24,7 +24,7 @@ To become a delegate, you need to build a good reputation in the pog.network com
 
 ## Tasks of a Delegate
 
-- Delegates have the opportunity to suggest green wallets and vote for other green causes that they wish the network to support, see [green adresses](./../../glossary.md#green-addresses).
+- Delegates have the opportunity to suggest green wallets and vote for other green causes that they wish the network to support, see [green addresses](./../../glossary.md#green-addresses).
 
 ## Delegate Keys
 
