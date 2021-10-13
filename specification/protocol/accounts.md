@@ -22,7 +22,7 @@ FinalAccountAddress = AccountAddress + Checksum // 192 bits
 
 When intended for human consumption, these should be encoded with z-base-32.
 An account address would look like this for example: `yy5xyknabqan31b8fkpyrd4nydtwpausi3kxgta` (39 chars).
-Different types of accounts and address versions can easily be distinguished using the first character.
+Different types of accounts and address versions can easily be distinguished using the first character, however might optionally be prefixed with `pog-` to be more unique from transaction and block IDs.
 
 Over the wire, these addresses should however be if possible represented by bytes
 
