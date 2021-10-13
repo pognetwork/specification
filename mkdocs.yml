@@ -7,10 +7,12 @@ nav:
   - Protocol:
       - Overview: "protocol/README.md"
       - Protocol Changes: "protocol/protocol-changes.md"
-      - Smart Contracts: "protocol/smart-contracts.md"
       - Accounts: "protocol/accounts.md"
       - Ledger: "protocol/ledger.md"
+      - Smart Contracts: "protocol/smart-contracts.md"
       - Supply: "protocol/supply.md"
+      - Time: "protocol/time.md"
+      - Wallets: "protocol/wallets.md"
       - Forks: "protocol/forks.md"
       - Coin Distribution: "protocol/distribution.md"
       - Consensus:

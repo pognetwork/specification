@@ -17,7 +17,7 @@ ProtocolVersion = 0b0000
 AccountAddress = AddressType + ProtocolVersion + HashedPublicKey[0:160]
 
 Checksum = SHA3-256(AccountAddress)[0:24]
-AccountAddress = AccountAddress + Checksum // 192 bits
+FinalAccountAddress = AccountAddress + Checksum // 192 bits
 ```
 
 When intended for human consumption, these should be encoded with z-base-32.
