@@ -9,7 +9,7 @@ This format is based on the `UTC / JSON keystores` which Ethereum pioneered.
 
 By default, pog's encryption is based on AEAD, which is the standard for modern SSL and TLS encryption schemes.
 
-```yaml
+```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schemas.pog.network/lulw.schema.json",
@@ -17,8 +17,17 @@ By default, pog's encryption is based on AEAD, which is the standard for modern 
   "crypto":
       "ciphertext": "base64-encoded-encrypted-data",
       "cipher": "chacha20-poly1305-aead",
+      "cipherparams": {
+          "nonce": "base64-encoded-random-data"
+      },
       "kdf": "argon2id",
-      "kdfparams": { "salt": "base64-encoded-random-data" },
-    },
+      "kdfparams": { 
+          "salt": "base64-encoded-random-data",
+          "v": 19,
+          "m": 4096,
+          "t": 3,
+          "p": 1
+      }
+   }
 }
 ```
