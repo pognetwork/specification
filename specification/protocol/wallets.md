@@ -14,7 +14,7 @@ By default, pog's encryption is based on AEAD, which is the standard for modern 
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schemas.pog.network/lulw.schema.json",
   "version": 0,
-  "crypto":
+  "crypto": {
       "ciphertext": "base64-encoded-encrypted-data",
       "cipher": "chacha20-poly1305-aead",
       "cipherparams": {
