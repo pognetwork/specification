@@ -1,7 +1,7 @@
 # Blocks
 
 In POG, transactions are contained in blocks. These blocks must be verified by more than 60% of prime delegates to be accepted by the network.
-Blocks contain sevaral fields:
+Blocks contain several fields:
 
 ## Block Header
 
@@ -13,14 +13,14 @@ Blocks contain sevaral fields:
 
 ## Block Contents
 
-| field         | type              | size         | description                                                 |
-| ------------- | ----------------- | ------------ | ----------------------------------------------------------- |
-| version       | enum              | up to 32 bit | block version                                               |
-| signatureType | varint            | up to 32 bit | only Ed25519 currently                                      |
-| height        | varint (unsigned) | up to 64 bit | the block height (block index); starts at 0                 |
-| balance       | varint (unsigned) | up to 64 bit | the new account ballance after applying all transactions    |
-| previous      | bytes (optional)  | 256 bit      | hash of the previous block                                  |
-| transactions  | Transaction       | variable     | all transactions included in the block (TODO: limit amount) |
+| field         | type              | size         | description                                                                 |
+| ------------- | ----------------- | ------------ | --------------------------------------------------------------------------- |
+| version       | enum              | up to 32 bit | block version                                                               |
+| signatureType | varint            | up to 32 bit | only Ed25519 currently                                                      |
+| height        | varint (unsigned) | up to 64 bit | the block height (block index); starts at 0                                 |
+| balance       | varint (unsigned) | up to 64 bit | the new account ballance after applying all transactions                    |
+| previous      | bytes (optional)  | 256 bit      | hash of the previous block                                                  |
+| transactions  | Transaction       | variable     | all transactions included in the block (limited to 255 unique transactions) |
 
 ## Block IDs
 

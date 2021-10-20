@@ -6,6 +6,10 @@
 
 POG.network is currently in a very early phase. Currently, we're working hard on formalizing our specification and finding out what we want to actually build. Still, we want to begin building something as soon as we have the basics about right and experiment in software to figure out any problems that might come up.
 
+# How POG works
+
+Please check out our [Overview](protocol/README.md), where we try to explain the general principles behind our technology with as little technical jargon as possible. In general, while not always possible, we strive to keep everything about the specification easy to digest without a lot of prior knowledge. The specification is however aimed at Develops with a basic understanding of digital ledger technology, so basic programming knowledge and using google to research certain terms might be required.
+
 # What drives us
 
 POG was born out of the desire to learn. The initial team consists of a number of students at the CODE University who want to use this as an about decentralized ledger technology. This started with the realization of the inefficiencies in current cryptocurrencies which motivated us to have sustainability be a core part of the protocol.
