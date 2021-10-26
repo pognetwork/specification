@@ -5,7 +5,7 @@
 # Overview
 
 While the next pages will go more into detail of the how and why, we want to give a rough overview of the components that make up our currency.
-For a more technical overview, check out champ's documentation [here](https://pog.network/Champ/overview/).
+For a more technical overview, check out champ's documentation [here](https://pog.network/champ/overview/).
 
 POG is a cryptocurrency similar to the big players like Bitcoin and Ethereum, with two major differences:
 

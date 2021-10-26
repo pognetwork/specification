@@ -1,9 +1,8 @@
-site_name: Specification
+site_name: specification
 docs_dir: "specification"
 
 nav:
   - Introduction: "README.md"
-  # - Whitepaper: "whitepaper/README.md"
   - Protocol:
       - Overview: "protocol/README.md"
       - Protocol Changes: "protocol/protocol-changes.md"
@@ -26,3 +25,4 @@ nav:
           - Voting: "protocol/transactions/voting.md"
   - Glossary: "glossary.md"
   - Styleguide: "styleguide.md"
+  - Whitepaper: "whitepaper/README.md"
