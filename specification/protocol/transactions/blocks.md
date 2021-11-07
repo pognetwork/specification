@@ -1,6 +1,9 @@
 # Blocks
 
 In POG, transactions are contained in blocks. These blocks must be verified by more than 60% of prime delegates to be accepted by the network.
+
+For more information on this process, check out [voting](./networking/voting)
+
 Blocks contain several fields:
 
 ## Block Header
