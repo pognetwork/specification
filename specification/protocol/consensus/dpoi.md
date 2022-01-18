@@ -1,6 +1,6 @@
 <!-- prettier-ignore -->
 !!! warning
-    The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
+    This page is not final and still needs some work
 
 # Delegated Proof of Importance - our consensus Mechanism
 

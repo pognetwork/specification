@@ -1,3 +1,7 @@
+<!-- prettier-ignore -->
+!!! warning
+    This page is not final and still needs some work
+
 # Voting
 
 ## Voting for inclusion of blocks

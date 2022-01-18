@@ -38,7 +38,7 @@ To learn more about delegates, check out our [page about them](../consensus/dele
 
 # Transactions
 
-There are 4 different types of transactions:
+There are currently 4 different types of transactions:
 
 <!-- prettier-ignore-start -->
 === "Open"
