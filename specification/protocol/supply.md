@@ -1,9 +1,16 @@
-<!-- prettier-ignore -->
-!!! warning
-    The POG.network specification is still a Work-In-Progress and this page isn't finalized yet.
-
+Initially, POGs supply will be fixed, see [distribution](./distribution.md).
 There isn't any "mining" happening, so no new coins are distributed with block rewards.
+Still, we want to add fees to our system, because sustainability is our main goal.
 
-We are still pondering about if there should be rewards baked into the protocol. One Way we are thinking about would be as block rewards that aren't rewarded to the delegates producing these blocks but instead distributed to "green addresses" by these producers.
+# Inflation
 
-To see how this supply is reached, check out our page on [distribution](distribution.md).
+To ensure long-term success and stability, we aim for a 2% yearly inflation rate.
+Instead of charging fees, our inflation rate will serve as a kind of "carbon tax".
+This inflation will initialy be regualary conducted using hard forks, and hopefully later integrated more tightly into the network.
+These hard forks will be automated and based on the currently active green wallets.
+
+# Fees
+
+Transactions on the network will be free, however to prevent being marked as spam, they can choose to burn a certain amount of pog.
+Our spam algorithm will determine the likelyhood of a transaction being spam based on it's computational usage, size and an accounts previous transactions.
+Prime delegates will provide an open API which will enable wallets to figure out the likelyhood of a transaction to be accepted by the network.
