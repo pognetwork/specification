@@ -3,9 +3,10 @@ docs_dir: "specification"
 
 nav:
   - Introduction: "README.md"
+  - PIPs:
+      - What are PIPs?: "protocol/01-PIPs.md"
+      - Index: "protocol/index.md"
   - Protocol:
-      - Overview: "protocol/README.md"
-      - Protocol Changes: "protocol/protocol-changes.md"
       - Accounts: "protocol/accounts.md"
       - Ledger: "protocol/ledger.md"
       - Smart Contracts: "protocol/smart-contracts.md"

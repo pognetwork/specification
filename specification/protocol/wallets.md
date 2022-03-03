@@ -1,33 +1,8 @@
-> The following contains the specification for the file format for storing wallets. This will later be moved to it's own PP.
-
 # Wallets
 
-## The LULW-Format
+In its most basic form, a pog.network wallet is just 32 bytes of randomly generated data. This means that every possible combination of 256 `0`s and `1` is a valid wallet.
+Due to the sheer number of possible combinations, we can garuantee no conflicts
 
-POGs Wallet format is based on the LULW-Format (Lean Universal Local Wallet) to provide a high degree of interoperability and flexibility.
-This format is based on the `UTC / JSON keystores` which Ethereum pioneered.
+## Related
 
-By default, pog's encryption is based on AEAD, which is the standard for modern SSL and TLS encryption schemes.
-
-```json
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schemas.pog.network/lulw.schema.json",
-  "version": 0,
-  "crypto": {
-      "ciphertext": "base64-encoded-encrypted-data",
-      "cipher": "chacha20-poly1305-aead",
-      "cipherparams": {
-          "nonce": "base64-encoded-random-data"
-      },
-      "kdf": "argon2id",
-      "kdfparams": { 
-          "salt": "base64-encoded-random-data",
-          "v": 19,
-          "m": 4096,
-          "t": 3,
-          "p": 1
-      }
-   }
-}
-```
+- [The LULW Wallet Format (PRC-3)](./../PIPs/03-LULW.md)
