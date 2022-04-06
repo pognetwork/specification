@@ -2,16 +2,16 @@
 
 ### Nodes
 
-Nodes are Computers/Servers which run pog's software. This software is what makes pog.network possible: anyone is able to create one of these to ensure and verify the safety and accuracy of the network and create consensus.
+Nodes are Computers/Servers which run pog's software. This software is what makes pog.network possible: anyone is able to create one of these to ensure and verify the safety and accuracy of the network and reach consensus.
 
 ### Consensus Mechanism
 
 Finding consensus essentially means every node agreeing on reality: what transactions happened and when.
-To find out more about pog.network's consensus algorithm, check out [Delegated Proof of Importance](protocol/consensus/dpoi.md).
+You can find more information on pog.network's specific consensus mechanism here: [Delegated Proof of Importance](protocol/consensus/dpoi.md).
 
-### Delegates / Delegate Nodes
+### Prime Delegates/Delegate Nodes
 
-Delegate Nodes are nodes which are part of the top 128 nodes with the highest online importance score. They play a crucial part in the stability of the network by voting on [green addresses](#green-addresses) and by their votes being rebroadcasted by all other nodes.
+To reach consensus, pog.network works similar to a representative democracy. Voting on you representatives happens continuously by entrusting them with your importance. The 128 most powerful accounts are chosen to vote on network decisions. They play a crucial part in the stability of the network by voting on [green addresses](#green-addresses) and by their votes being rebroadcasted by all other nodes.
 
 ### Green Addresses
 

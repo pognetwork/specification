@@ -1,25 +1,15 @@
-<!-- prettier-ignore -->
-!!! warning
-    The POG.network specification is still a Work-In-Progress and isn't finalized yet.
-
 # Introduction
 
-POG.network is currently in a very early phase. Currently, we're working hard on formalizing our specification and finding out what we want to actually build. Still, we want to begin building something as soon as we have the basics about right and experiment in software to figure out any problems that might come up.
+POG.network is still in an early phase. Currently, we're working hard on finalizing our specification and finishing the first working prototype of our reference-implmenetation, champ.
 
-# How POG works
-
-Please check out our [Overview](protocol/README.md), where we try to explain the general principles behind our technology with as little technical jargon as possible. In general, while not always possible, we strive to keep everything about the specification easy to digest without a lot of prior knowledge. The specification is however aimed at Develops with a basic understanding of digital ledger technology, so basic programming knowledge and using google to research certain terms might be required.
-
-# What drives us
-
-POG was born out of the desire to learn. The initial team consists of a number of students at the CODE University who want to use this as an about decentralized ledger technology. This started with the realization of the inefficiencies in current cryptocurrencies which motivated us to have sustainability be a core part of the protocol.
-
-We want to accomplish this goal while still staying true to the original vision of bitcoin: creating a currency that knows no geographical boundaries and which exists outside of the of control of individual states and companies.
+This specification is primarily aimed at develops with a basic understanding of digital ledger technology, so basic programming knowledge and researching certain terms might be required. We also provide a basic [glossary](glossary.md).
 
 # Previous Work
 
 We're drawing inspiration from many projects, in particular [ethereum](https://ethereum.org/), [nano](https://nano.org), [vite](https://vite.org) and [nem](https://nem.io).
 These are all very mature projects with a huge amount of features, which pog is not: We want to create a minimal and modular project to learn about distributed ledgers and only later expand it to a fully production ready cryptocurrency.
+
+# Roadmap
 
 Our roadmap is available [here](https://github.com/orgs/pognetwork/projects/1) and on the left side you can find our first attempts at defining a protocol.
 
@@ -29,8 +19,8 @@ gantt
     dateFormat  YYYY-MM-DD
     section Section
     Defining the Protocol   :a1, 2021-06-15, 60d
-    First Node Implementation    :a2, after a1, 129d
-    Reevaluate Strategy    :a3, after a2, 100d
-    Create Foundation    :after a3, 70d
-    Prepare token launch    :after a3, 70d
+    First Node Implementation    :a2, after a1, 150d
+    Reevaluate Strategy    :a3, after a2, 160d
+    Create Foundation    :after a3, 100d
+    Prepare token launch    :after a3, 100d
 ```
