@@ -6,7 +6,7 @@
 
 ## The ADAD-Format
 
-ADAD is an extremly simple, future-proof protocol for creating authenticated data. ADAD main purpose is to describe and authenticate self-contained binary data.
+ADAD is a straightforward, future-proof protocol for creating authenticated data. ADAD primary purpose is to describe and authenticate self-contained binary data.
 It's essentially a length-prefix framing with the addition of a multiformats codec field.
 
 ## Format
@@ -27,9 +27,9 @@ as-size  as-codec as-data           au-size  au-codec authenticated data
 - <span style="color:#7af7cd;">**Data Size (as-size/au-size)**</span><br/>
   Most Significant Bit unsigned varint, as defined by [multiformats/unsigned-varint](https://github.com/multiformats/unsigned-varint)
 - <span style="color:#7af788;">**Associated Data (as-data)**</span><br/>
-  Arbitrary, binary data. For maximum compatibility, this data can be in any format. At pog.network, it is serialized using protobufs. This should include all information neccecary to authenticate the authenticated data. In the case of pog.network, this is usually a signature and the algorithm used to sign the data.
+  Arbitrary, binary data. For maximum compatibility, this data can be in any format. At pog.network, it is serialized using protobufs. This should include all information necessary to authenticate the authenticated data. In the case of pog.network, this is usually a signature and the algorithm used to sign the data.
 - <span style="color:#7af788;">**Authenticated Data**</span><br/>
-  Arbitrary, binary data. Should idealy be encoded using a serialization mechanism like protocol buffers or similar.
+  Arbitrary, binary data. Should ideally be encoded using a serialization mechanism like protocol buffers or similar.
 - <span style="color:#7abef7;">**Codecs (as-codec/au-codec)**</span><br/>
   Most Significant Bit unsigned varint, as defined by [multiformats/unsigned-varint](https://github.com/multiformats/unsigned-varint).
-  This number represents a codec which is part of the [multicodec table](https://github.com/multiformats/multicodec/blob/master/table.csv). In most cases for use in pog.network, this will be protobuf (`0x50`).
+  This number represents a codec that is part of the [multicodec table](https://github.com/multiformats/multicodec/blob/master/table.csv). In most cases for use in pog.network, this will be protobuf (`0x50`).

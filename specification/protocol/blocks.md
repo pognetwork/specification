@@ -1,6 +1,6 @@
 # Blocks
 
-In POG, transactions are contained in blocks. These blocks must be verified by more than 60% of prime delegates to be accepted by the network.
+In POG, transactions are contained in blocks. These blocks must be verified by more than 60% of Prime Delegates to be accepted by the network.
 
 For more information on this process, check out [voting](./networking/voting)
 
@@ -31,8 +31,8 @@ Block IDs have to be unique as long as the block content is a valid new block, s
 
 ## Broadcasting Blocks
 
-Newley created blocks need to be published to all prime delegates.
-These then publish their decision (accept or deny the block) to all other prime delegates and a subset of non-prime representatives (gossip about gossip).
+Newley-created blocks need to be published to all Prime Delegates.
+These then publish their decision (accept or deny the block) to all other Prime Delegates and a subset of non-prime representatives (gossip about gossip).
 
 To learn more about delegates, check out our [page about them](../consensus/delegates.md)
 
@@ -54,8 +54,8 @@ There are currently 4 different types of transactions:
 
     | field    | type   | size         | description                              |
     | -------- | ------ | ------------ | ---------------------------------------- |
-    | reviever | bytes  | up to 32 bit | account pog is being transfered to       |
-    | amount   | uint64 | 64 bit       | amount of pog transfered to that account |
+    | reviever | bytes  | up to 32 bit | account pog.network is being transfered to       |
+    | amount   | uint64 | 64 bit       | amount of pog.network transfered to that account |
     | data     | bytes  | variable     | any data associated with the transaction |
 
 === "Claim"

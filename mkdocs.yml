@@ -4,7 +4,7 @@ docs_dir: "specification"
 nav:
   - Introduction: "README.md"
   - PIPs:
-      - What are PIPs?: "PIPs/01-PIPs.md"
+      - What are PIPs?: "PIPs/00-PIPs.md"
       - All PIPs: "PIPs"
   - Protocol:
       - Accounts: "protocol/accounts.md"
@@ -18,9 +18,7 @@ nav:
       - Consensus:
           - Delegates: "protocol/consensus/delegates.md"
           - "Delegated Proof of Importance": "protocol/consensus/dpoi.md"
-      - Transactions:
-          - Blocks: "protocol/transactions/blocks.md"
-          - Fees: "protocol/transactions/fees.md"
+      - Blocks: "protocol/blocks.md"
       - Networking:
           - Peering: "protocol/networking/peering.md"
           - Voting: "protocol/networking/voting.md"

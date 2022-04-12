@@ -1,19 +1,19 @@
 <!-- prettier-ignore -->
 !!! warning
-    This page is not final and still needs some work
+    This page still needs some love, check back later!
 
-# Delegated Proof of Importance - our consensus Mechanism
+# Delegated Proof of Importance - Our Consensus Mechanism
 
 ## Abstract
 
-The consensus is the backbone of the crypto currency. It handles voting on the blocks to be added to a network.
-The voting is only done by a small number of nodes in the network with the highest importance or voting power, the Prime Delegates.
-Importance (or voting power. These will be used interchangeably) is used to filter out the most important nodes on a node in a network which will then gain the status of Prime Delegate and be tasked with voting on new blocks from the network. The Prime Delegates use their earned importance for voting which ensures that Wallets that are most active in the network will govern the network.
-A number of factors are used to calculate the earned importance.
+The consensus algorithm is the backbone of any cryptocurrency. It is the method used to agree on the reality of data in our distributed system.
+
+Only a few nodes, those with the highest importance, vote in the network. These are also called the Prime Delegates.
+We use several factors to calculate the earned importance.
 
 Like in nano[[1]](https://docs.nano.org/protocol-design/orv-consensus/), there is no economic incentive of running a node to prevent a list of issues[[2]](https://medium.com/@clemahieu/emergent-centralization-due-to-economies-of-scale-83cc85a7cbef). The only incentive is the health of the ecosystem.
 
-## Factors for voting power calculation
+## Factors for Voting Power Calculation
 
 These factors will be balance to make it harder for it to be abused.
 
@@ -37,7 +37,7 @@ These factors will be balance to make it harder for it to be abused.
   Percentage cut. If cashflow is exactly 0, a percentage of the balance is used to decrease importance<br/>
   _(this may be changed to a percentage of overall importance and we may introduce a buffer around 0 to mitigate micro spending)_
 
-### Future ideas
+### Future Ideas
 
 - **Sending coins to "green wallets" increases importance**<br/>
   Green wallets are wallets that donate money to green causes. This idea is working progress.

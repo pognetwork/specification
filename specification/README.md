@@ -7,11 +7,11 @@ This specification is primarily aimed at develops with a basic understanding of 
 # Previous Work
 
 We're drawing inspiration from many projects, in particular [ethereum](https://ethereum.org/), [nano](https://nano.org), [vite](https://vite.org) and [nem](https://nem.io).
-These are all very mature projects with a huge amount of features, which pog is not: We want to create a minimal and modular project to learn about distributed ledgers and only later expand it to a fully production ready cryptocurrency.
+These are all very mature projects with a huge amount of features, which pog.network is not: We want to create a minimal and modular project to learn about distributed ledgers and only later expand it to a fully production ready cryptocurrency.
 
 # Roadmap
 
-Our roadmap is available [here](https://github.com/orgs/pognetwork/projects/1) and on the left side you can find our first attempts at defining a protocol.
+Our roadmap is available [here](https://tree.taiga.io/project/henr-y-pognetwork/kanban) and on the left side you can find our first attempts at defining a protocol.
 
 ```mermaid
 gantt

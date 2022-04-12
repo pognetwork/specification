@@ -6,10 +6,10 @@
 
 ## The LULW-Format
 
-POGs Wallet format is based on the LULW-Format (Lean Universal Local Wallet) to provide a high degree of interoperability and flexibility.
+POGs Wallet format is based on the LULW-Format (Lean Universal Local Wallet) to provide interoperability and flexibility.
 This format is based on the `UTC / JSON keystores` which Ethereum pioneered.
 
-By default, pog's encryption is based on AEAD, which is the standard for modern SSL and TLS encryption schemes.
+By default, pog's encryption is based on AEAD, the standard for modern SSL and TLS encryption schemes.
 
 ```json
 {
